@@ -717,7 +717,7 @@ body {
     position: relative;
     overflow: hidden; /* Обрезаем лишнее, если картинка выходит за пределы */
     /* Фоновое изображение с параллакс-эффектом */
-    background-image: url("img/washer.jpg.webp");
+    background-image: url("washer.jpg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
