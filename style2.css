@@ -245,7 +245,7 @@ body {
 
 .list {
     z-index: 2;
-    transform: translate(-50%, -50%);
+    transform: translate(-10%, -50%);
 }
 
 .machines-wrapper img {
