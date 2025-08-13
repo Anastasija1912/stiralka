@@ -615,7 +615,7 @@ body {
     margin: 40px auto 0;
     position: relative;
     overflow: hidden;
-    background-image: url("img/washer.jpg.webp");
+    background-image: url("washer.jpg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
