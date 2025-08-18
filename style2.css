@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap');
+c@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap');
 
 /* Основные/глобальные стили */
 body {
@@ -1348,6 +1348,152 @@ flex-direction: row;}
 }
 
 /* Для мобильных */
-@media (max-width: 480px) {
-   
+@media (max-width: 480px) {}
+
+@media (min-width: 1024.00001px) and (max-width: 1201px) {
+    body {
+        width: 100%;
+    }
+}
+
+/* Планшетная версия (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Шапка */
+    .header__container {
+        padding: 0 20px;
+    }
+
+    .header__info {
+        width: 100%;
+    }
+
+    .phone-link {
+        font-size: 16px;
+    }
+
+    /* Герой секция */
+    .hero {
+        width: 90%;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .hero__container {
+        padding: 0;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__content {
+        justify-content: center;
+    }
+
+    .hero__img {}
+
+    .phone-input {
+        justify-content: center;
+    }
+
+    .hero__title {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .hero__description {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .hero__policy {
+        text-align: left;
+    }
+
+    .circle-shadow {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* Особенности */
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .feature-card {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* Услуги */
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service-card {
+        width: 40%;
+        height: 200px;
+        padding: 15px;
+    }
+
+    /* Причины */
+    .section-flex {
+        flex-direction: column;
+    }
+
+    .features-list {
+        width: 100%;
+    }
+
+    /* Бренды */
+    .brands-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Этапы работы */
+    .steps-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .step-col:nth-child(3n) .step-arrow {
+        display: none;
+    }
+
+    .step-col {
+        max-width: 300px;
+    }
+
+    /* FAQ */
+    .faq-section {
+        flex-direction: column;
+    }
+
+    .features-list {
+        padding-left: 150px;
+    }
+
+    .accordion__img {
+        display: none;
+    }
+
+    /* Футер */
+    .footer__container {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+
+    .footer {
+        padding: 25px;
+    }
+
+    .footer__column:last-child {
+        grid-column: span 3;
+        text-align: center;
+    }
+
+    .telegram__whatsapp {
+        justify-content: center;
+    }
 }
