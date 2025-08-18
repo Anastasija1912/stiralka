@@ -1529,3 +1529,63 @@ body {
         justify-content: center;
     }
 }
+
+@media (max-width: 768px), 
+       (max-width: 1024px) and (max-height: 500px) {
+  .hero__container {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  
+  .circle-shadow {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .hero__title {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px), 
+       (max-width: 1024px) and (orientation: landscape) {
+  .header__info {
+    width: auto;
+  }
+  
+  .burger__menu {
+    display: block !important;
+  }
+  
+  .header__contacts, 
+  .working-hours, 
+  .header__actions {
+    display: none;
+  }
+}
+@media (max-width: 768px), 
+       (max-width: 1024px) and (max-height: 500px) {
+  .features-grid,
+  .services-grid,
+  .brands-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-card,
+  .service-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+/* Для очень маленьких экранов в ландшафте */
+@media (max-width: 1024px) and (max-height: 400px) {
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item {
+    font-size: 14px;
+  }
+}
