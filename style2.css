@@ -224,6 +224,11 @@ body {
     font-size: 11px;
     text-align: right;
 }
+.social-links { display: flex; 
+align-items: center;
+justify-content: center;
+align-content: center;
+flex-direction: row;}
 
 .social-link {
     aspect-ratio: 1 / 1;
