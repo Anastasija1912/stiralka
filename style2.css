@@ -1576,7 +1576,8 @@ body {
   
   .feature-card,
   .service-card {
-    width: 100%;
+/*     width: 100%; */
+       width: 300px;
     margin-bottom: 15px;
   }
 }
