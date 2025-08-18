@@ -1478,7 +1478,8 @@ body {
     .features-list {
         width: 100%;
     }
-
+    .reasons-section  {width:100%;}
+.container {width:100%; padding:0; margin:0;}
     /* Бренды */
     .brands-grid {
         grid-template-columns: repeat(3, 1fr);
