@@ -233,6 +233,7 @@ body {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.9);
     background-color: #fff;
     width: 40px;
+    height: 40px; /* Добавляем фиксированную высоту */
     border: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
     display: inline-block;
@@ -240,6 +241,9 @@ body {
     /* transition: box-shadow .18s ease, transform .18s ease; */
     margin-left: 5px;
     margin-right: 5px;
+    display: flex; /* Используем flex для центрирования */
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
 }
 
 .social-link:hover {
@@ -1029,9 +1033,13 @@ body {
     .header__info {
         width: 100%;
     }
-
-    .social-link {
+   .social-link {
         width: 35px;
+        height: 35px;
+    }
+    .social-link img {
+        width: 35px;
+        height: 35px;
     }
 
     .burger__menu {
