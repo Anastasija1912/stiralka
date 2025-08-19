@@ -2,6 +2,7 @@
 
 /* Основные/глобальные стили */
 body {
+    overflow-x: hidden; 
     font-family: "Roboto", "Arial", sans-serif;
     margin: 0;
     padding: 0;
@@ -1057,7 +1058,8 @@ body {
     }
 
     .header__container {
-
+margin-left: 20px;
+        margin-right: 20px;
         text-align: center;
         display: flex;
         flex-direction: row;
@@ -1172,7 +1174,10 @@ body {
     .feature-card {
         width: 80%;
     }
-
+.feature-description {
+    margin-left:20px;
+    margin-right:20px;
+   }
     .section-title {
         font-size: 30px;
         margin-bottom: 0;
@@ -1583,12 +1588,31 @@ body {
 }
 /* Для очень маленьких экранов в ландшафте */
 @media (max-width: 1024px) and (max-height: 400px) {
-  .section-title {
+    .section-title {
     font-size: 20px;
     margin-bottom: 15px;
-  }
-  
-  .feature-item {
+    }
+    
+    .feature-item {
     font-size: 14px;
-  }
+    }
+    .feature-description {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .service-card {
+    width:300px;
+    }
+    .section-flex {
+    margin-right:30px;
+    }
+    .steps-row {
+    justify-content: space-around;
+    }
+    .step-col {
+    max-width: 252px;
+    }
+    .accordion-item {
+    margin-right:20px;
+    }
 }
