@@ -1150,7 +1150,9 @@ margin-left: 20px;
         height: 80%;
     }
 
-    .stiralka img {}
+    .stiralka img {        
+        height: 220px;
+                  }
 .stiralka {
     display: flex;
     flex-wrap: nowrap;
