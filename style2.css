@@ -925,7 +925,7 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
 /*     transform: translate(20%, 10%); */
-      transform: translate(-30%, 10%);
+
 }
 
 /* Футер */
@@ -1152,7 +1152,13 @@ margin-left: 20px;
     }
 
     .stiralka img {}
+.stiralka {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 
+      transform: translate(-30%, 10%);
+}
     .callback-form-phone {
         width: 80%;
         margin: 20px auto;
