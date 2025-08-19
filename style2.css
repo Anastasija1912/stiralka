@@ -1399,6 +1399,8 @@ margin-left: 20px;
     /* Шапка */
     .header__container {
         padding: 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     }
 
     .header__info {
@@ -1454,8 +1456,8 @@ margin-left: 20px;
 
     /* Особенности */
     .features-grid {
-        display: grid;
-/*         grid-template-columns: repeat(2, 1fr); */
+        display: flex;
+        flex-wrap: wrap;
         gap: 20px;
     }
 
@@ -1510,7 +1512,7 @@ margin-left: 20px;
 
     .features-list {
 /*         padding-left: 150px; */
-        margin:0 auto;
+        margin:0 100px;
     }
 
     .accordion__img {
@@ -1573,11 +1575,7 @@ margin-left: 20px;
 }
 @media (max-width: 768px), 
        (max-width: 1024px) and (max-height: 500px) {
-  .features-grid,
-  .services-grid,
-  .brands-grid {
-/*     grid-template-columns: 1fr; */
-  }
+  
   
   .feature-card,
   .service-card {
@@ -1610,7 +1608,7 @@ margin-left: 20px;
     justify-content: space-around;
     }
     .step-col {
-    max-width: 252px;
+    max-width: 240px;
     }
     .accordion-item {
     margin-right:20px;
