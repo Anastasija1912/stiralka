@@ -1486,7 +1486,13 @@ margin-left: 20px;
         width: 100%;
     }
     .reasons-section  {width:100%;}
-.container {width:100%; padding:0; margin:0;}
+.container {
+    width:100%; 
+    padding:0; 
+    margin:0;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
     /* Бренды */
     .brands-grid {
         grid-template-columns: repeat(3, 1fr);
